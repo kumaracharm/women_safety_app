@@ -1,0 +1,37 @@
+name: women_safety_app
+description: "Women Safety Shield - Premium Edition"
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  http: ^1.1.0
+  shared_preferences: ^2.2.2
+  url_launcher: ^6.2.2
+  vibration: ^3.1.4
+  geolocator: ^14.0.2
+  permission_handler: ^12.0.1
+  record: ^6.2.1
+  share_plus: ^12.0.2
+  path_provider: ^2.1.0
+  firebase_core: ^4.9.0
+  cloud_firestore: ^6.4.1
+  shake: 3.0.0
+  google_generative_ai: ^0.4.7
+  speech_to_text: ^7.4.0
+  flutter_tts: ^4.2.5
+  flutter_dotenv: ^5.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
